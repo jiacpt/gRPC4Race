@@ -7,6 +7,9 @@
             "features": [
                 "codegen"
             ]
+        },
+        {
+            "name": "fmt"
         }
     ]
 }

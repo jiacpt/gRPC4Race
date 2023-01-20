@@ -3,10 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${vcpkgRoot}/ffmpeg/include",
-                "${vcpkgRoot}/x64-windows/include",
-                "${vcpkgRoot}/x64-windows-static/include"
+                "${workspaceFolder}/Middleware",
+                "${workspaceFolder}/Service",
+                "${workspaceFolder}/build/vcpkg_installed/x64-windows/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -17,7 +16,7 @@
             "compilerPath": "C:/Program Files/LLVM/bin/clang.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
-            "intelliSenseMode":"clang-x64",
+            "intelliSenseMode": "clang-x64",
             "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],

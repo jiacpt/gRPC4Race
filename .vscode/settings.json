@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "justfile": "bat",
+        "memory": "cpp",
+        "cmath": "cpp"
+    }
+}

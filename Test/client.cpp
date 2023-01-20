@@ -1,8 +1,3 @@
-//
-// client.cc
-// Created by leo on 2020/1/31.
-//
-
 #include <string>
 
 #include <grpcpp/grpcpp.h>
